@@ -1,5 +1,4 @@
 import { MdLocalPizza as icon } from 'react-icons/md';
-import toppings from './toppings';
 
 export default {
   // Computer name
