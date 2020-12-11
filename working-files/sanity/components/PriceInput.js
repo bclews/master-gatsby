@@ -5,7 +5,7 @@ function createPatchFrom(value) {
   return PatchEvent.from(value === '' ? unset() : set(Number(value)));
 }
 
-const formatMoney = Intl.NumberFormat('en-CA', {
+const formatMoney = Intl.NumberFormat('en-AU', {
   style: 'currency',
   currency: 'AUD',
 }).format;
